@@ -1,0 +1,7 @@
+# Creator: D4RK-C0D3
+# Date: 26-07-2020
+# Title: welcome message
+# Description: Here is my welcome message
+
+echo "last login: `date`" | lolcat
+echo "welcome, D4RK_C0D3" | lolcat

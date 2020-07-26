@@ -1,0 +1,20 @@
+# Creator: D4RK-C0D3
+# Date: 26-07-2020
+# Title: Exporting some global variabls
+# Description: Here I exports some global variables
+
+# Some exports for coloring man pages
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+
+# Some exports for vim editor
+export LC_ALL="en_US.UTF-8"
+export TERM="xterm-256color"
+export FZF_DEFAULT_COMMAND='ag --unrestricted -g ""'
+export EDITOR="vim"
+

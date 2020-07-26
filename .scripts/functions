@@ -1,0 +1,37 @@
+# Creator: D4RK-C0D3
+# Date: 26-07-2020
+# Title: Asigning functions
+# Description: Here I am asinging some functions for make things easy
+
+# Tools
+function sublist3r(){
+  python ~/_d4rk_c0d3/tools/Sublist3r/sublist3r.py
+}
+
+function dirsearch(){
+  python ~/_d4rk_c0d3/tools/dirsearch/dirsearch.py
+}
+
+function nikto(){
+  perl ~/_d4rk_c0d3/tools/nikto/program/nikto.pl
+}
+
+function ytdl04d(){
+  bash ~/_d4rk_c0d3/tools/Y7_DL04D/Y7_DL04D.sh
+}
+
+# Custom Tools
+function vir(){
+  echo -e "# Creator: D4RK-C0D3\n# Date: `date +%d-%m-%y`\n# Title:\n# Desc:\n" > README.md && vi README.md ;};
+
+function mkd(){ date=`date +%d-%m-%y`; mkdir -p $date ;}
+
+function finish(){
+  dir=$(pwd);
+  mv ${dir} ${dir}_COMPLETE ;
+  cd ../ ;
+}
+
+function crtsh(){
+  curl -s https://crt.sh/?Identity=%.$1 | grep ">*.$1" | sed 's/<[/]*[TB][DR]>/\n/g' | grep -vE "<|^[\*]*[\.]*$1" | sort -u | awk 'NF'
+}

@@ -1,0 +1,35 @@
+# Creator: D4RK-C0D3
+# Date: 26-07-2020
+# Title: Asign Alias
+# Description: Here I asigns some aliases for my terminal
+
+# Asigning aliases for cd command
+alias cdd='cd ../'
+alias cddd='cd ../../'
+alias cdddd='cd ../../../'
+alias cdddd='cd ../../../../'
+alias cddddd='cd ../../../../../'
+
+# Asigning aliases for ls command
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias la='ls -a'
+
+# Asigning aliases for clear command
+alias c='clear'
+
+# Asigning aliases for grep command
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Asigning aliases for vim command
+alias vi='vim'
+
+# Asigning aliases for top command
+alias top='htop'
+
+# Asigning aliases for diff command
+alias diff='diff --color=auto'
+
+# Asigning aliases for <command> command

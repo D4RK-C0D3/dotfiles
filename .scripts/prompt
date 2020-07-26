@@ -1,0 +1,9 @@
+# Creator: D4RK-C0D3
+# Date: 26-07-2020
+# Title: bash prompt
+# Description: Here Is All Of My Prompts
+
+#PS1="\[\033[01;32m\]__d4rk\[\033[01;32m\]@\[\033[1;32m\]\h:[\[\033[01;34m\]\w\[\033[01;32m\]] $\[\033[32m\] "
+
+PS1=" \[\033[1;36m\]~/\W >\[\033[1;34m\]>\[\033[0m\] "
+
